@@ -452,16 +452,12 @@
                 <!-- Embedded Google Map -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d610.3962432481541!2d-9.703078530280845!3d52.269081198249786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4845357a570f66a9%3A0x90edfa44a5928926!2sHennessys%20Bar!5e0!3m2!1sen!2sie!4v1709754233880!5m2!1sen!2sie" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-8">
                 <!-- Address -->
                 <h4>Address</h4>
                 <p>35 36 Upper Castle Street<br>Tralee, Co. Kerry, V92 V211<br>Ireland</p>
             </div>
-            <div class="col-lg-4">
-                <!-- Contact Information -->
-                <h4>Contact Information</h4>
-                <p>Email: thebargetralee@gmail.com<br>Phone: +353 85-222-2222</p>
-            </div>
+            
             <div class="col-lg-4">
                 <!-- Opening Hours -->
                 <h4>Opening Hours</h4>
@@ -476,8 +472,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <h2 class="text-center mb-4">Contact US</h2>
-            <form action="contact_form.php" method="post">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form onsubmit="submitForm(event)">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter your name">
