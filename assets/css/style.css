@@ -1,3 +1,19 @@
+/* To manage the size of the 3 carousel images */
+.carousel-img {
+    width: 100%;
+    height: 700px; 
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* To make carousel images text standout */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.9); /* Background color with transparency */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 20px; /* Rounded corners for the box */
+    max-width: 700px; /* Limiting the width */
+    margin: 0 auto; /* Center the box horizontally */
+}
+
 /* To manage the size of the 6 why us images */
 .card-img {
     width: 100%;
