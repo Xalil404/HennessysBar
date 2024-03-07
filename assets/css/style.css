@@ -1,3 +1,13 @@
+/* To make the navigation bar sticky */
+#sticky {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust as needed */
+    background-color: #ffffff;
+}
+
+
 /* To manage the size of the 3 carousel images */
 .carousel-img {
     width: 100%;

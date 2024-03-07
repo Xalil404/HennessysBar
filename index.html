@@ -17,11 +17,12 @@
     
 </head>
 <body>
-    <!--Header Navigation-->
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+<!--Header Navigation-->
+
+<div class="container-fluid" id="sticky">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand">
+            <a href="#myCarousel" class="navbar-brand">
                 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1709732446/Project%201/Screenshot_2024-03-06_at_1.34.25_PM_copy_cx0yov.png"
                     alt="Logo" class="logo-image"><span class="fs-4">HENNESSY'S</span>
             </a>
@@ -33,17 +34,18 @@
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Offerings</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#myCarousel" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#offerings" class="nav-link">Offerings</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </div>
+
 <!--Carousel-->
 <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
     <!--Carousel Bottom Indicators-->
@@ -94,7 +96,7 @@
   </div>
 
 <!-- About Us -->
-<div class="container marketing">
+<div class="container marketing" id="about">
     <div class="row featurette mt-5">
         <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">Welcome to Hennessy's Bar. <span
@@ -133,7 +135,7 @@
   <hr class="featurette-divider-two">
 
 <!--Six Reasons-->
-  <div class="album py-5 bg-body-tertiary">
+  <div class="album py-5 bg-body-tertiary" id="offerings">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -196,7 +198,7 @@
   </div>
 
 <!--Gallery-->
-  <section class="py-5">
+  <section class="py-5" id="gallery">
     <div class="container">
         <h2 class="text-center mb-4">Some of the Magic at Hennessey's</h2>
         <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -348,7 +350,7 @@
 </section>
 
 <!--Testimonials -->
-<section class="py-5 bg-light">
+<section class="py-5 bg-light" id="reviews">
     <div class="container">
         <h2 class="text-center mb-4">What Visitors are Saying</h2>
         <div class="overflow-auto">
@@ -468,7 +470,7 @@
 </section>
 
 <!--Contact Form -->
-<section class="py-5 bg-light">
+<section class="py-5 bg-light" id="contact">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
