@@ -42,6 +42,15 @@
     margin-bottom: 70px;
 }
 
+.featurette-divider-three {
+    width: 40%;
+    border-top: 10px solid rgb(126, 126, 126); /* Adjust the color and thickness as needed */
+    margin: 0 auto; /* Center the line horizontally */
+    margin-top: 70px;
+    border-radius: 300px; /* Half of the height to create rounded ends */
+    margin-bottom: 70px;
+}
+
 /* To manage the size of the 6 why us images */
 .card-img {
     width: 100%;
@@ -55,6 +64,38 @@
     height: 700px; 
     object-fit: cover; /* Maintain aspect ratio */
 }
+
+/* To manage cocktail generator */
+#cocktailPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+
+#cocktailImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* To manage close pop-up button */
+#closePopupBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
 
 /* To manage the size of the social media icons & follow us text */
 .fa-facebook {
