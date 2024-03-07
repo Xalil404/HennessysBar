@@ -67,7 +67,7 @@ function submitForm(event) {
     var body = "Name: " + name + "\nEmail: " + email + "\nPhone: " + phone + "\nMessage: " + message;
 
     // Create mailto link
-    var mailtoLink = "mailto:kareemxalil@gmail.com" +
+    var mailtoLink = "mailto:thebargetralee@gmail.com" +
                      "?subject=" + encodeURIComponent(subject) +
                      "&body=" + encodeURIComponent(body);
 
