@@ -7,4 +7,9 @@ Link to live site [here](https://xalil404.github.io/HennessysBar/).
 
 ## Platform features
 * Bar images gallery.
-* An artificial intelligence AI drink generator. 
+* An artificial intelligence AI drink generator.
+* Company offerings.
+* Reviews.
+* Social media links.
+* Location map.
+* Contact form.
